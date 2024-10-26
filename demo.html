@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #705C53;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+            .main-container {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
+                padding: 0 30px;
+            }
+
+            .Box-container, .Side-box, .side2-box {
+                border: 2px solid #ddd;
+                background-color: #EDDFE0;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                transition: background-color 0.3s, border-color 0.3s;
+            }
+
+            .Box-container {
+                width: 750px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .Side-box, .side2-box {
+                width: 350px;
+                height: 600px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .icon-container {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+
+            .para-head {
+                background-color: #15215e;
+                color: #fff;
+                font-size: xx-large;
+                padding: 10px;
+                border-radius: 8px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .icon-box {
+                text-align: center;
+                cursor: pointer;
+                padding: 20px;
+                border: 2px solid #e0e0e0;
+                margin: 10px;
+                border-radius: 10px;
+                background-color: #F5F5F7;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+                transition: transform 0.3s, background-color 0.3s, color 0.3s;
+                width: 160px;
+                height: 200px;
+            }
+
+            .icon-box img {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 15px;
+            }
+
+            .icon-box:hover {
+                transform: translateY(-10px);
+                background-color: #f0f0f0;
+            }
+
+            .hover-text {
+                display: none;
+                background-color: #333;
+                color: #fff;
+                padding: 8px;
+                border-radius: 5px;
+                margin-top: 10px;
+                font-size: 14px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .icon-box:hover .hover-text {
+                display: block;
+            }
+
+            body.dark-mode {
+                background-color: #333;
+                color: #f0f0f0;
+            }
+
+            .dark-mode .Box-container,
+            .dark-mode .Side-box,
+            .dark-mode .side2-box {
+                background-color: #444;
+                border-color: #666;
+            }
+
+            .dark-mode .para-head {
+                background-color: #333;
+                color: #fff;
+            }
+
+            .dark-mode .icon-box {
+                background-color: #555;
+                color: #f0f0f0;
+                border-color: #777;
+            }
+
+            .dark-mode-toggle {
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 8px;
+                cursor: pointer;
+                background-color: #333;
+                color: #fff;
+                border: none;
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+            .dark-mode-toggle:hover {
+                background-color: #555;
+            }
+
+            /* New styling for the Student Helpdesk heading */
+            .helpdesk-heading {
+                font-size: 36px;
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="main-container">
+            <div class="Side-box">
+                <div class="side-icons">
+                    <p class="para-head">Academics</p>
+                    <div class="icon-box" onclick="window.location.href='https://vjcet.etlab.in/user/login'">
+                        <img src="C:/wp qstn/Usless prj/icons/ETLAB.png" alt="ET LAB Icon">
+                        <div class="hover-text">Login</div>
+                        <p>ET LAB</p>
+                    </div>
+                    <div class="icon-box" onclick="window.location.href='https://vjcet.org/#'">
+                        <img src="C:/wp qstn/Usless prj/icons/globe.png" alt="Portal Icon">
+                        <div class="hover-text">View</div>
+                        <p>Portal</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Box-container">
+                <h1 class="para-head">Student Helpdesk</h1> <!-- Moved here inside Box-container -->
+                <div class="icon-container">
+                    <div class="icon-box" onclick="window.location.href='https://app.ktu.edu.in/login.htm'">
+                        <img src="C:/wp qstn/Usless prj/icons/university.png" alt="University Logo">
+                        <div class="hover-text">University Login</div>
+                        <p>Login</p>
+                    </div>
+                    <div class="icon-box" onclick="window.location.href='https://www.ktuassist.in/p/cgpa-calculater.html'">
+                        <img src="C:/wp qstn/Usless prj/icons/calculator.png" alt="Calculator Icon">
+                        <div class="hover-text">Calculate</div>
+                        <p>CGPA Calculator</p>
+                    </div>
+                    <div class="icon-box" onclick="window.location.href='https://www.ktunotes.in/'">
+                        <img src="C:/wp qstn/Usless prj/icons/notes.png" alt="Notes icon">
+                        <div class="hover-text">Notes</div>
+                        <p>Study Notes</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="C:/wp qstn/Usless prj/icons/donate.png" alt="Donate">
+                        <div class="hover-text">Fees</div>
+                        <p>Fees</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side2-box">
+                <div class="side-icons">
+                    <p class="para-head">Resources</p>
+                    <div class="icon-box" onclick="window.location.href='https://vjcet.org/certification-and-placements'">
+                        <img src="C:/wp qstn/Usless prj/icons/training.png" alt="Placement Icon">
+                        <div class="hover-text">Placement training Access</div>
+                        <p>Placement</p>
+                    </div>
+                    <div class="icon-box" onclick="window.location.href='https://vjcet.org/syllabus-and-curriculum'">
+                        <img src="C:/wp qstn/Usless prj/icons/learning.png" alt="Syllabus Icon">
+                        <div class="hover-text">Course Syllabus</div>
+                        <p>Syllabus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+        <script>
+            function toggleDarkMode() {
+                document.body.classList.toggle('dark-mode');
+            }
+        </script>
+    </body>
+</html>

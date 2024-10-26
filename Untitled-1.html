@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+    
+            .icon-container {
+                display: flex;
+                justify-content: space-around;
+                width: 60%;
+            }
+    
+            .icon-box {
+                text-align: center;
+                cursor: pointer;
+            }
+    
+            .icon-box img {
+                width: 80px;
+                height: 80px;
+            }
+    
+            .hover-text {
+                display: none;
+                background-color: #333;
+                color: #fff;
+                padding: 5px;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+    
+            .icon-box:hover .hover-text {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="icon-container">
+        <!-- Icon 1 -->
+        <div class="icon-box" onclick="window.location.href='https://app.ktu.edu.in/login.htm'">
+            <img src="university.png" alt="University Logo">
+            <div class="hover-text">Here, you can go to your University login page Directly without any hassle.</div>
+        </div>
+    
+        <!-- Icon 2 -->
+        <div class="icon-box" onclick="window.location.href='https://www.ktuassist.in/p/cgpa-calculater.html'">
+            <img src="calculator.png" alt="Calculator Icon">
+            <div class="hover-text">Here, you can calculate your Grade points without depending in anyother webpages.</div>
+        </div>
+    
+        <!-- Icon 3 -->
+        <div class="icon-box" onclick="window.location.href='https://www.ktunotes.in/'">
+            <img src="notes.png" alt="Notes icon">
+            <div class="hover-text">Want Study materials the day before Exams. Here you go</div>
+        </div>
+    </div> <!-- Corrected the missing closing div tag -->
+    
+    </body>
+</html>
