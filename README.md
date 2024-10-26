@@ -90,9 +90,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Alex Joy]: [Color configuration]
+- [Anirudh KB]: [CSS styling]
+- [Febin Biju]: [HTML implementation,debugging]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
