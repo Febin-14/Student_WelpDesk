@@ -1,33 +1,33 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# [Student_WelpDesk] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [La Espada]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Alex Joy] - [VJCET]
+- Member 2: [Febin Biju] - [VJCET]
+- Member 3: [Anirudh KB] - [VJCET]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This project is a student helpdesk webpage designed for easy access to essential academic and resource-related links, such as university login, CGPA calculator, study notes, and placement information. The interface includes light and dark mode toggles for user comfort, along with a user-friendly layout featuring clickable icon boxes for navigation.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Why can't i access every usefull webpages fast, and why do i have to search for every other tools?]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[Well, we've created a webpage for the students that have every tools and sites they need.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- [Languages used - HTML,CSS]
+- [Frameworks used-Vanilla]
 - [Libraries used]
-- [Tools used]
+- [Tools used-Chat gpt,flaticons]
 
 For Hardware:
 - [List main components]
@@ -46,14 +46,17 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1] ![Screenshot 2024-10-26 114253](https://github.com/user-attachments/assets/2e22b73a-d7e0-418a-b8b5-7464f76443a2)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Raw image of the webpage*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2] ![Screenshot 2024-10-26 114316](https://github.com/user-attachments/assets/15f55783-c4fc-41e3-b71e-fa3a5fac897b)
+
+*Hovering image of the webpage*
+
+![Screenshot3] ![Screenshot 2024-10-26 114802](https://github.com/user-attachments/assets/dc119403-56cc-4050-bdcc-ddb6911338c2)
+
+*Dark mode of the webpage*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
