@@ -8,9 +8,9 @@
 
 
 ### Team Members
-- Team Lead: [Alex Joy] - [VJCET]
+- Team Lead: [Anirudh KB] - [VJCET]
 - Member 2: [Febin Biju] - [VJCET]
-- Member 3: [Anirudh KB] - [VJCET]
+- Member 3: [Alex joy] - [VJCET]
 
 ### Project Description
 [This project is a student helpdesk webpage designed for easy access to essential academic and resource-related links, such as university login, CGPA calculator, study notes, and placement information. The interface includes light and dark mode toggles for user comfort, along with a user-friendly layout featuring clickable icon boxes for navigation.]
@@ -47,10 +47,9 @@ For Software:
 
 
 ## Team Contributions
-- [Alex Joy]: [Color configuration]
 - [Anirudh KB]: [CSS styling]
 - [Febin Biju]: [HTML implementation,debugging]
-
+- [Alex Joy]: [Color configuration and design]
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
