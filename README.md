@@ -29,21 +29,7 @@ For Software:
 - [Libraries used]
 - [Tools used-Chat gpt,flaticons]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1] ![Screenshot 2024-10-26 114253](https://github.com/user-attachments/assets/2e22b73a-d7e0-418a-b8b5-7464f76443a2)
